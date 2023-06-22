@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .calculator .keypad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .calculator .keypad button {
+    width: 23%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculator .keypad button.operator {
+    background-color: #f9b34c;
+    color: #fff;
+  }
+  
+  .calculator .keypad button.operator:hover {
+    background-color: #e6993d;
+  }
+  
+  .calculator .keypad button.equals {
+    background-color: #33c48c;
+    color: #fff;
+  }
+  
+  .calculator .keypad button.equals:hover {
+    background-color: #2ea97e;
+  }
+  
+  .calculator .keypad button.numbers {
+    background-color: #42a5f5;
+    color: #fff;
+  }
+  
+  .calculator .keypad button.numbers:hover {
+    background-color: #3d9ae6;
+  }
+  
+  .calculator .keypad button.clear {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .calculator .keypad button.clear:hover {
+    background-color: #e53935;
+  }
+  
